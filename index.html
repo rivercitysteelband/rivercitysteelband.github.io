@@ -10,6 +10,7 @@
 	<meta name="description" content="{{ site.description }}">
   <link rel="stylesheet" href="combo.css">
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
 	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
@@ -42,6 +43,19 @@
           <h5 class="icon-title">{{ page.title }}</h5>
         </div>
         {% endif %}
+        {% if page.carousel %}
+        <div class="container carousel {{ page.style }}">
+          <div class="flexslider">
+            <ul class="slides">
+              {% for slides in page.carousel %}
+              <li>
+              <img src="{{ slides.image }}">
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% endif %}
         <div class="container {{ page.style }}">
           {{ page.content }}
         </div>
@@ -61,4 +75,6 @@
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="site.js"></script>
+<script src="js/app.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
 </html>
