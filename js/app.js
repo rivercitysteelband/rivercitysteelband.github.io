@@ -5,6 +5,9 @@ $(window).load(function() {
           directionNav: false,
           slideshowSpeed: 5000,
           animationSpeed: 600,
-          touch: true
-            });
+          touch: true,
+          start: function(){
+               $('.flexImage').show(); 
+          }
+    });
 });
