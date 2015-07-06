@@ -13,6 +13,8 @@
  * FONT-FACE
  * ====================================================================================================================*/
 
+
+
 @font-face {
   font-family: 'flexslider-icon';
   src: url('fonts/flexslider-icon.eot');
@@ -50,6 +52,11 @@
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
+}
+
+.fleximages > li {
+    display: none;
+    -webkit-backface-visibility: hidden;
 }
 
 .flexslider .slides img {
