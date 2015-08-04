@@ -3,8 +3,8 @@ $(window).load(function() {
             animation: "fade",
           controlNav: false,
           directionNav: false,
-          slideshowSpeed: 5000,
-          animationSpeed: 600,
+          slideshowSpeed: 1500,
+          animationSpeed: 200,
           touch: true
     });
 });
