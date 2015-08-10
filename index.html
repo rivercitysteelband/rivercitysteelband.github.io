@@ -66,22 +66,6 @@
           {{ page.text }}
         </h4>
         </div>
-        {% if page.carousel %}
-        <div class="container carousel {{ page.style }}">
-          <div class="flexslider">
-            <ul class="slides">
-                <li class="fleximages" >
-                    <img src="{{ page.carousel[0].image }}">
-                </li>
-                {% for slides in page.carousel %}
-                <li style="display:none">
-                    <img src="{{ slides.image }}">
-                </li>
-                {% endfor %}
-            </ul>
-          </div>
-        </div>
-        {% endif %}
         <div class="container {{ page.style }}">
           {{ page.content }}
         </div>
