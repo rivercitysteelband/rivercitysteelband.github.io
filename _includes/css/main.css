@@ -355,3 +355,24 @@ nav ul li:hover, nav ul li.active {
     column-count:         2;
   }
 }
+
+/**** RW Added ***/
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: flex-end;  */
+  align-items: flex-end;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.social-button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+/******/
+
+
+

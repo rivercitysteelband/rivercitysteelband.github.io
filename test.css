@@ -1,0 +1,23 @@
+.html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+.wrapper {
+  padding: 2em;
+  max-width:  980px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 40em;
+}
+.nav {
+  position: absolute;
+  width: 150px;
+  top: 2em;
+  background-color: #FF6A00;
+}
+.content {
+  margin-right: 200px;
+}
+.fwrap {
+  display: flex;
+  justify-content: flex-end;
+  /*flex-direction: row-reverse;*/
+}
