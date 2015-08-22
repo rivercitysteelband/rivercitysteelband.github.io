@@ -358,10 +358,10 @@ nav ul li:hover, nav ul li.active {
 
 /**** RW Added ***/
 .social-buttons {
-  display: flex;
-  flex-direction: column;
+  /*display: flex; */
+ /* flex-direction: column; */
   /*justify-content: flex-end;  */
-  align-items: flex-end;
+ /* align-items: flex-end;*/
   margin-top: -5px;
   margin-bottom: -5px;
 }
