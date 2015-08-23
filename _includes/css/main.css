@@ -372,14 +372,19 @@ nav ul li:hover, nav ul li.active {
 }
 
 .social-link {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: flex-end;
+  
 }
+
 
 .carousel {
 	width: 70%;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 /******/
