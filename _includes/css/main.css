@@ -378,6 +378,10 @@ nav ul li:hover, nav ul li.active {
 	align-items: flex-end;
 }
 
+.carousel {
+	width: 70%;
+}
+
 /******/
 
 
